@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" href="/img/fav.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style_login.css">
+    <script src="https://kit.fontawesome.com/c6a570644c.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Login</h1>
+            <div class="main">
+                <input type="email" placeholder="Username" id="username" name="username">   
+            <label for="username" id="user">email</label>
+            </div>
+            <div class="main">
+                <input type="password" placeholder="password" id="myinput">
+                <label for="password" id="user">password</label>
+                <input type="checkbox" id="check" onclick="show()" hidden>
+                <label for="check" id="eye"><i class="fa-regular fa-eye"></i></label>
+                <label for="check" id="closed" ><i class="fa-regular fa-eye-slash" ></i></label>
+                
+            </div>
+
+
+            <button type="button" class="button"> continue </button>
+            <div class="text">
+                dont have account?<a href="signin.html" target="_blank" id="text">sign up</a>
+            </div>
+
+
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-google"></i></a> <a href=""><i class="fa-brands fa-facebook"></i></a> <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
